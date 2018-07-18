@@ -1,3 +1,10 @@
+.idea/
+local_settings.py
+db.sqlite3
+media
+.vscode/
+venv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
