@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'bootstrap/css/bootstrap-reboot.min.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'bootstrap/css/bootstrap-grid.min.css' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'bootstrap-material-design/css/bootstrap-material-design.min.css' %}" rel="stylesheet" type="text/css"
+    />
+</head>
+
+<body>
+    <!-- primary -->
+    <ul class="nav nav-tabs bg-primary">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Another link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+    </ul>
+
+    <script src="{% static 'jquery/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'bootstrap-material-design/js/bootstrap-material-design.min.js' %}"></script>
+</body>
+
+</html>
