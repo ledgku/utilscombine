@@ -37,10 +37,10 @@
                     </a>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
-                            <a href="#">Find my IP</a>
+                            <a href="/dev/findmyip">Find my IP</a>
                         </li>
                         <li>
-                            <a href="#">Find my GPS</a>
+                            <a href="/dev/findmygps">Find my GPS</a>
                         </li>
                     </ul>
                 </li>
@@ -77,6 +77,10 @@
                     </button>
                 </div>
             </nav>
+
+            {% block contents %}
+
+            {% endblock contents %}
         </div>
     </div>
 
